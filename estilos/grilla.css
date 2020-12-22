@@ -1,0 +1,34 @@
+.grilla {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+        "foto acci"
+        "dato dato"
+        "esta esta";
+}
+
+.caja-imagen {
+    grid-area: foto;
+}
+
+.caja-perfil-datos {
+    grid-area: dato;
+}
+
+.caja-perfil-estadisticas {
+    grid-area: esta;
+}
+
+.caja-perfil-acciones {
+    grid-area: acci;
+}
+
+@media only screen and (min-width: 768px) {
+    .grilla {
+        grid-template-areas: 
+            "foto acci"
+            "foto esta"
+            "foto dato";        
+    }
+}

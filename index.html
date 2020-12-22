@@ -43,40 +43,25 @@
         </div>
     </header>
 
-    <!-- Perfil -->
-    <section class="flex-container-row">
-        
-         <div class="imagen-perfil-container">
-                <img src="./imagenes/doctadevs.jpg" class="redondo">
+    <div class="grilla">
+        <div class="caja-imagen">
+            <img src="./imagenes/doctadevs.jpg" class="redondo">
         </div>
-            <!-- Foto de perfil -->
-         <div>   
-         <div class="  flex-container-row container-perfil">
-             <!-- Nombre de cuenta -->
-                <h1>doctadevs_</h1>
-
-                <!-- Botón "..." -->
-                <button class="boton-navegacion"> <img src="./imagenes/icon-more.svg"> </button>
-         </div>
-
-         <div class="flex-container-row">
-
+        <div class="caja-perfil-acciones">
+            <h1>doctadevs_</h1>
+            <button class="boton-navegacion"> 
+                <img src="./imagenes/icon-more.svg"> 
+            </button>
+            <div class="cta-container">
                 <!-- Botón "Message" (Enviar mensaje) -->
                 <button class="call-to-action"> Mensaje</button>
-
                 <!-- Botón "Follow/Unfollow" (Seguir/Dejar de seguir) -->
                 <button class="call-to-action">No seguir</button>
-
                 <!-- Botón "More actions" (Más acciones) -->
-                <button class="call-to-action">🔻</button>
-         
+                <button class="call-to-action">Más</button>
+            </div>
         </div>
-    </div>
-        
-        
-    </section>
-
-    <section class="descripcion"> 
+        <div class="caja-perfil-datos">
             <!-- Nombre de perfil -->
             <h2>doctadevs</h2>
 
@@ -86,33 +71,30 @@
             <!-- Enlace -->
             <a href="https://wa.me/549351816285">wa.me/549351816285</a>
 
-        
             <!-- Indicador de seguidores -->
             <p class="followers">Seguidos por PerfilUno, PerfilDos, PerfilTres y 42 más</p>
-    
-    </section>
-
-    <!-- Estadísticas -->
-    <section class="flex-container-row estadistica-container">
-        <div class="estadisticas-item">
-            <!-- Valor de la estadística -->
-            <span>65</span>
-            <!-- Nombre de la estadística -->
-            <p>publicaciones</p>
         </div>
-        <div class="estadisticas-item">
-            <!-- Valor de la estadística -->
-            <span>1.139</span>
-            <!-- Nombre de la estadística -->
-            <p>seguidores</p>
+        <div class="caja-perfil-estadisticas">
+            <div class="estadisticas-item">
+                <!-- Valor de la estadística -->
+                <span>65</span>
+                <!-- Nombre de la estadística -->
+                <p>publicaciones</p>
+            </div>
+            <div class="estadisticas-item">
+                <!-- Valor de la estadística -->
+                <span>1.139</span>
+                <!-- Nombre de la estadística -->
+                <p>seguidores</p>
+            </div>
+            <div class="estadisticas-item">
+                <!-- Valor de la estadística -->
+                <span>53</span>
+                <!-- Nombre de la estadística -->
+                <p>siguiendo</p>
+            </div>
         </div>
-        <div class="estadisticas-item">
-            <!-- Valor de la estadística -->
-            <span>53</span>
-            <!-- Nombre de la estadística -->
-            <p>siguiendo</p>
-        </div>
-    </section>
+    </div>
 
     <!-- Navegación interna -->
     <section class="nav-int-container">
@@ -130,7 +112,13 @@
     <!-- Contenido-->
     <main class="contenido-container">
         <!-- Todas las publicaciones -->
-        <a href="foto.html"><img src="imagenes/image-01.jpg"></a> 
+        <a href="foto.html">
+            <div class="informacion-foto">
+                <label>♥ 17</label>
+                <label>💬 3</label>
+            </div>
+            <img src="imagenes/image-01.jpg">
+        </a> 
         <img src="imagenes/image-02.jpg">
         <img src="imagenes/image-03.jpg">
         <img src="imagenes/image-04.jpg">
